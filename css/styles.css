@@ -1,0 +1,107 @@
+body {
+    background-color: #022601be;
+    color:#d6e4d6;
+    font-family: rixsuperrobot-pro, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    width: 60%;
+    padding: 20px;  
+}
+
+header,
+footer {
+    background-image: url('../img/inception.jpg');
+    padding : 25px;
+    box-shadow: -10px 10px 8px #022601;
+
+}
+header {
+    top:0%;
+    width : 160%;
+}
+footer{
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    padding : 1px;
+    box-shadow: -10px 10px 8px #022601;
+}
+
+h1{
+    text-align: center;
+    font-size: 35 px;
+    color:#a2e3a2;
+}
+h2{
+    text-align: center;
+    font-size: 20 px;
+    color:#7bae7b;
+}
+
+a {
+    display: block;
+    width: 40%;
+    height: 20%;
+    background-color: #022601be;
+    color: #e1e5e1;
+    position: relative;
+    text-align: center;
+    
+}
+
+header img {
+    height:fit-content;
+    width:99%;
+    border:2px solid #055902;
+}
+
+section{
+    display:block;
+    justify-content:baseline;
+    padding: 30px;
+}
+
+form{
+    padding: 50px;
+}
+
+#menu~a{
+    padding:0px;
+    margin:0px;
+    display: flex;
+    text-align: left;
+    border: 1px solid #0e130e;
+}
+
+
+a:hover{
+    color: rgb(170, 227, 170);
+    background-color: #0e130e;
+    transition: all 1s;
+}
+#menu li:first-child {
+    background-color:none ; 
+}
+#menu li:nth-child(2) {
+    background-color: #737156; 
+}
+#menu li:nth-child(3) {
+    background-color: #8C0E03; 
+}
+#menu li:nth-child(4){
+    background-color:#A6A6A6;
+}
+
+
+table{
+    border: 1px solid #0e130e;
+    border-collapse: collapse;
+    margin: 30px;
+}
+tr, td, th{
+    border: 1px solid #0e130e;
+    border-collapse: collapse;
+    padding: 8px;
+
+}
+
